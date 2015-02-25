@@ -1,0 +1,28 @@
+.overview-page {
+
+}
+
+.overview-page .donations-level {
+    height: 204px;
+}
+
+.overview-page__content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.overview-page__content ul {
+    padding-top: 41px;
+}
+
+.overview-page__content li {
+    height: 90px;
+}
+
+.overview-page .go-back {
+    margin-top: 56px;
+}
+
+.content-mobile .overview-page .go-back {
+    margin-top: 25px;
+}

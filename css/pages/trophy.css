@@ -1,0 +1,12 @@
+.trophy-page {
+
+}
+
+.trophy-page__content {
+    min-height: 708px;
+    padding-bottom: 15px;
+}
+
+.content-mobile .trophy-page__content {
+    min-height: 590px;
+}

@@ -1,0 +1,33 @@
+.small-header {
+    height: 115px;
+    padding: 23px 0 0 17px;
+}
+
+.small-header .icon-logo {
+    float: left;
+}
+
+.small-header .header-title {
+    float: left;
+    color: #fff;
+    padding-left: 70px;
+}
+
+.small-header .header-title h3 {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 48px;
+    letter-spacing: -0.7px;
+}
+
+.small-header .header-title strong {
+    color: #ff48a4;
+    letter-spacing: 0.1px;
+}
+
+.header-title__slogan {
+    width: 427px;
+    height: 20px;
+    background-position: -259px 0;
+    margin: 10px 0 0 -1px;
+}

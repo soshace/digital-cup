@@ -1,0 +1,121 @@
+.bg-start {
+    background: url(../../images/bg-start.jpg) no-repeat;
+    background-size: 640px 1039px;
+    height: 1039px;
+}
+
+.start-screen-header {
+    padding: 22px 0 0 13px;
+}
+
+.start-screen-header__logo {
+    float: left;
+}
+
+.start-screen-header__title {
+    font-size: 48px;
+    float: left;
+    padding: 21px 0 0 18px;
+}
+
+.start-screen-header__title h2 {
+    color: #fff;
+    font-weight: normal;
+    line-height: 51px;
+    letter-spacing: -1.1px;
+}
+
+.start-screen-header__title h1 {
+    color: #ff48a4;
+    padding-left: 77px;
+    letter-spacing: 2.1px;
+}
+
+.start-screen-content {
+    width: 576px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+
+.start-screen-welcome {
+    background: #fff url('../../images/start-page-welcome-game.jpg') no-repeat;
+    background-size: 576px 324px;
+    height: 433px;
+    margin-top: 26px;
+    position: relative;
+}
+
+.start-screen-welcome .ribbon {
+    height: 321px;
+}
+
+.start-screen-welcome__previous,
+.start-screen-welcome__next {
+    position: absolute;
+    top: 187px;
+}
+
+.start-screen-welcome__previous {
+    left: -21px;
+}
+
+.start-screen-welcome__next {
+    right: -19px;
+}
+
+.start-screen-welcome p {
+    padding-top: 17px;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.start-screen-welcome p strong {
+    color: #ee4399;
+}
+
+.start-screen-navigation {
+    padding-top: 21px;
+}
+
+.start-screen-navigation h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 2px 7px rgba(22, 23, 26, 1);
+    line-height: 39px;
+    letter-spacing: 3.8px;
+    padding-bottom: 6px;
+}
+
+.start-screen-navigation .button {
+    margin-bottom: 6px;
+    letter-spacing: 4.5px;
+}
+
+.start-screen-navigation__join {
+
+}
+
+.start-screen-navigation__join a {
+    float: left;
+    margin-right: 22px;
+    width: 277px;
+}
+
+.start-screen-navigation__join a:last-child {
+    margin-right: 0;
+}
+
+.start-screen-footer a {
+    display: block;
+    text-decoration: none;
+    background-color: #ee4399;
+    color: #fff;
+    font-family: 'Tahoma Bold';
+    text-align: center;
+    height: 48px;
+    font-size: 21px;
+    line-height: 48px;
+    letter-spacing: 5.0px;
+}

@@ -1,0 +1,19 @@
+.suggested-teams-page {
+
+}
+
+.suggested-teams-page .white-screen__content {
+    padding-top: 35px;
+}
+
+.suggested-teams-page .user-avatar {
+    padding-top: 45px;
+}
+
+.suggested-teams-page__more {
+    margin-top: 42px;
+}
+
+.suggested-teams-page .go-back {
+    margin: 27px 0 5px 0;
+}

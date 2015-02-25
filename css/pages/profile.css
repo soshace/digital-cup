@@ -1,0 +1,25 @@
+.profile-page {
+
+}
+
+.profile-page .user-avatar {
+    padding-top: 31px;
+}
+
+.profile-page .user-avatar span {
+    margin: 0 auto;
+    display: block;
+    float: none;
+    border-radius: 85px;
+    width: 170px;
+    height: 170px;
+}
+
+.profile-page .user-avatar figcaption {
+    float: none;
+    text-align: center;
+}
+
+.profile-page__dressing-room {
+    margin-top: 275px;
+}

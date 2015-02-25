@@ -1,0 +1,87 @@
+.pink-form {
+    padding-top: 13px;
+}
+
+.pink-form .form-groups-inline .form-group {
+    float: left;
+    margin-right: 8px;
+}
+
+.pink-form .form-groups-inline .form-group:last-child {
+    margin-right: 0;
+}
+
+.pink-form .form-group {
+    padding-bottom: 13px;
+}
+
+.pink-form label {
+    display: block;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+}
+
+.pink-form textarea:focus, .pink-form input:focus {
+    outline: 0;
+}
+
+.pink-form select,
+.pink-form input[type="text"],
+input[type="password"],
+input[type="email"] {
+    box-sizing: border-box;
+    border: 1px solid #eecbdc;
+    width: 100%;
+    color: #ee4399;
+    font-family: 'Tahoma Bold';
+    font-size: 24px;
+    height: 46px;
+    padding: 0 14px;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.pink-form button {
+    margin-bottom: 16px;
+}
+
+.pink-form .radio-group {
+    padding-top: 7px;
+}
+
+.pink-form .radio-group label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    color: #f7b1d0;
+    font-family: 'Tahoma Bold';
+    line-height: 29px;
+    padding-left: 37px;
+    margin-right: 27px;
+}
+
+.pink-form .radio-group input[type=radio] {
+    display: none;
+}
+
+.pink-form .radio-group label:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    border: #f6a1cc 4px solid;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    left: 0;
+    top: 3px;
+}
+
+.pink-form .radio-group input[type=radio]:checked + label {
+    color: #ee4399;
+}
+
+.pink-form .radio-group input[type=radio]:checked + label:before {
+    background-color: #ee4399;
+    border-color: #ee4399;
+}

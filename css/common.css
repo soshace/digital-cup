@@ -1,0 +1,174 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Tahoma';
+    font-size: 24px;
+    color: #000;
+}
+
+.hide {
+    display: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.sprite {
+    background: url('../images/sprite.png') no-repeat;
+    background-size: 686px 491px;
+}
+
+.content-wrapper {
+    overflow: hidden;
+}
+
+.content-bg-wrapper {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.content-bg-wrapper .content-bg {
+    position: static;
+    margin: 0 auto;
+}
+
+.content-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 640px 1200px;
+    width: 640px;
+    height: 1200px;
+}
+
+.content {
+    width: 640px;
+}
+
+.bg-dressing-room {
+    background: url(../images/bg-dressing-room.jpg) no-repeat;
+    background-size: 640px 1037px;
+    height: 1037px;
+}
+
+.content-mobile {
+    min-height: 100%;
+}
+
+.content-bg-desktop {
+    -ms-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -o-transform-origin: center top;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+}
+
+.content-desktop {
+    margin: 0 auto;
+    -ms-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -o-transform-origin: center top;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+}
+
+.white-screen {
+    background: #fff;
+    -webkit-box-shadow: 0 5px 5px 0 rgba(21, 22, 25, 0.21);
+    -moz-box-shadow: 0 5px 5px 0 rgba(21, 22, 25, 0.21);
+    box-shadow: 0 5px 5px 0 rgba(21, 22, 25, 0.21);
+    width: 576px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.white-screen__content {
+    padding: 45px 39px 30px 38px;
+}
+
+.go-back {
+    text-align: center;
+}
+
+.go-back a {
+    font-family: "Tahoma Bold";
+    color: #ee4399;
+    text-decoration: none;
+    position: relative;
+    padding-left: 25px;
+    letter-spacing: -0.4px;
+}
+
+.go-back a .icon {
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.forgot-password {
+    text-align: center;
+}
+
+.forgot-password a {
+    color: #000;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.user-avatar {
+    padding-top: 35px;
+}
+
+.user-avatar span {
+    float: left;
+    border: #ee4399 3px solid;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.user-avatar figcaption {
+    padding: 20px 0 0 20px;
+    float: left;
+    font-family: 'Tahoma Bold';
+}
+
+.user-avatar figcaption h2 {
+    font-size: 32px;
+    color: #ee4399;
+    letter-spacing: -0.5px;
+}
+
+.user-avatar figcaption h3 {
+    line-height: 43px;
+    letter-spacing: 2.7px;
+}
+
+.dressing-room-content {
+    background: rgba(0, 0, 0, 0.5);
+    width: 575px;
+    margin: 0 auto;
+    padding: 86px 0 120px 0;
+    min-height: 600px;
+}
+
+.content-desktop .dressing-room-content {
+    min-height: 700px;
+    padding-bottom: 100px;
+}

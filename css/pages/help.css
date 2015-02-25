@@ -1,0 +1,47 @@
+.help-page {
+
+}
+
+.help-page .button {
+    margin-top: 23px;
+}
+
+.help-page .white-screen__content {
+    padding-top: 61px;
+}
+
+.help-page__prizes {
+    margin-top: 32px;
+}
+
+.help-page__faq {
+    margin-top: 33px;
+}
+
+.help-page__dressing-room {
+    margin: 45px 0 1px 0;
+}
+
+.help-page .icon-bat {
+    right: 15px;
+    top: 4px;
+}
+
+.help-page .icon-players {
+    top: 10px;
+    right: 8px;
+}
+
+.help-page .icon-bowl {
+    top: 2px;
+    right: 12px;
+}
+
+.help-page .icon-field {
+    top: 5px;
+}
+
+.help-page .icon-scoring {
+    top: 8px;
+    right: 13px;
+}

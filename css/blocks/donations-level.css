@@ -1,0 +1,71 @@
+.donations-level {
+    color: #ee4399;
+    font-family: 'Tahoma Bold';
+    width: 518px;
+    margin: 0 auto;
+    border-bottom: #e24191 1px solid;
+    height: 194px;
+}
+
+.donations-level__content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.donations-level__content h5 {
+    line-height: 80px;
+    letter-spacing: 3px;
+}
+
+.donations-level__progress {
+    border: #ee4399 3px solid;
+    background-color: #000;
+    height: 17px;
+    position: relative;
+}
+
+
+.donations-level__progress__filler {
+    border-right: #fff 1px solid;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    height: 61px;
+}
+
+.donations-level__progress__filler__color {
+    background: #1593d5;
+    background: -moz-linear-gradient(left, #1593d5 0%, #ee4399 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #1593d5), color-stop(100%, #ee4399));
+    background: -webkit-linear-gradient(left, #1593d5 0%, #ee4399 100%);
+    background: -o-linear-gradient(left, #1593d5 0%, #ee4399 100%);
+    background: -ms-linear-gradient(left, #1593d5 0%, #ee4399 100%);
+    background: linear-gradient(to right, #1593d5 0%, #ee4399 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1593d5', endColorstr='#ee4399', GradientType=1);
+    padding-left: 3px;
+    width: 100%;
+    height: 23px;
+}
+
+.donations-level__progress__filler__point {
+    height: 26px;
+    width: 26px;
+    background-color: #fff;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    position: absolute;
+    top: -2px;
+    right: -13px;
+}
+
+.donations-level__progress__filler__amount {
+    position: absolute;
+    bottom: -27px;
+    right: -13px;
+    color: #fff;
+}
+
+.donations-level__start {
+    line-height: 45px;
+}

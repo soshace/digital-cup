@@ -1,0 +1,53 @@
+.dressing-room-header {
+    width: 576px;
+    margin: 0 auto;
+    padding-top: 39px;
+    position: relative;
+    font-family: 'Tahoma Bold';
+    height: 45px;
+}
+
+.dressing-room-header .ribbon__content {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+    text-align: left;
+    padding-left: 164px;
+}
+
+.dressing-room-header__avatar {
+    border: #ee4399 3px solid;
+    -webkit-border-radius: 73px;
+    -moz-border-radius: 73px;
+    border-radius: 73px;
+    width: 146px;
+    height: 146px;
+    overflow: hidden;
+    position: absolute;
+    top: -22px;
+    left: -8px;
+}
+
+.dressing-room-header h1 {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 24px;
+    padding-left: 9px;
+    letter-spacing: -0.6px;
+}
+
+.dressing-room-header h3 {
+    font-size: 22px;
+    color: #ee4399;
+    padding: 11px 0 0 163px;
+    letter-spacing: 4.5px;
+}
+
+.dressing-room-header__amount {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    right: 39px;
+    top: 66px;
+}

@@ -1,0 +1,66 @@
+.ribbon {
+    position: relative;
+}
+
+.ribbon__content {
+    height: 45px;
+    background-color: #ee4399;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    line-height: 41px;
+    font-size: 22px;
+    letter-spacing: 5.6px;
+    padding-left: 7px;
+    font-family: 'Tahoma Bold';
+    width: 577px;
+    box-sizing: border-box;
+}
+
+.ribbon:before,
+.ribbon:after {
+    position: absolute;
+    background: url('../../images/sprite.png') no-repeat;
+    background-size: 686px 491px;
+    width: 67px;
+    height: 51px;
+    content: '';
+}
+
+.ribbon:before {
+    background-position: -123px 0;
+    left: -28px;
+    top: -9px;
+}
+
+.ribbon:after {
+    background-position: -192px 0;
+    right: -29px;
+    top: 1px;
+}
+
+.ribbon.big-ribbon {
+    height: 117px;
+    position: relative;
+    left: -39px;
+    width: 578px;
+}
+
+.ribbon.big-ribbon figure {
+    height: 100px;
+    background-color: #ee4399;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    padding: 0;
+}
+
+.ribbon.big-ribbon:after {
+    top: 56px;
+}
+
+.ribbon.big-ribbon figure h2,
+.ribbon.big-ribbon figure h3 {
+    color: #fff;
+}

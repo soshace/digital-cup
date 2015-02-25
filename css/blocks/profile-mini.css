@@ -1,0 +1,129 @@
+.profile-mini {
+    font-family: 'Tahoma Bold';
+}
+
+.profile-mini-signs {
+    font-family: 'Tahoma Bold';
+}
+
+.profile-mini-signs__avatar {
+    float: left;
+    width: 81px;
+}
+
+.profile-mini__avatar {
+    float: left;
+    margin-right: 39px;
+}
+
+.avatar-mini {
+    overflow: hidden;
+    display: inline-block;
+    border: #ee4399 3px solid;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    width: 59px;
+    height: 59px;
+}
+
+.profile-mini-signs__sign {
+    width: 45px;
+    float: left;
+}
+
+.profile-mini-signs__sign .icon-mini-batting {
+    margin-top: 6px;
+}
+
+.profile-mini-signs__sign .icon-mini-bowling {
+    margin-top: 20px;
+}
+
+.profile-mini-signs__sign .icon-mini-fielding {
+    margin-top: 12px;
+}
+
+.profile-mini__title {
+    float: left;
+}
+
+.profile-mini-signs__title {
+    width: 324px;
+    float: left;
+}
+
+.profile-mini__title h2 {
+    font-size: 28px;
+    color: #fff;
+    letter-spacing: -0.6px;
+}
+
+.profile-mini__title h3 {
+    font-size: 22px;
+    color: #ee4399;
+    line-height: 47px;
+    letter-spacing: 4.4px;
+}
+
+.profile-mini-signs__title h2 {
+    font-size: 28px;
+    color: #fff;
+    letter-spacing: -0.6px;
+    line-height: 39px;
+}
+
+.profile-mini-signs__title h3 {
+    font-family: 'Tahoma';
+    font-size: 20px;
+    color: #ee4399;
+    font-weight: normal;
+}
+
+.profile-mini-signs__title h3 span {
+    font-family: 'Tahoma Bold';
+    font-size: 20px;
+    color: #fff;
+}
+
+.profile-mini-signs__bonus {
+    width: 49px;
+    float: left;
+    color: #ee4399;
+    font-size: 22px;
+    text-align: right;
+    letter-spacing: 4px;
+    line-height: 41px;
+    position: relative;
+}
+
+.profile-mini-signs__bonus__sign {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #ee4399;
+    opacity: 0.4;
+    top: 4px;
+    right: 1px;
+}
+
+.profile-mini-signs__bonus__sign .icon {
+    position: relative;
+    top: 11px;
+}
+
+.profile-mini-signs__bonus__title {
+    position: absolute;
+    top: 71px;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.1;
+    text-align: center;
+    right: -7px;
+    letter-spacing: 0.4px;
+}
+

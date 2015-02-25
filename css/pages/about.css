@@ -1,0 +1,30 @@
+.about-page {
+
+}
+
+.about-page .ribbon__content {
+    letter-spacing: 4.4px;
+}
+
+.about-page .white-screen__content p {
+    padding-top: 22px;
+    line-height: 29px;
+    font-size: 22px;
+}
+
+.about-page__visit-button {
+    margin-top: 30px;
+    letter-spacing: 3.5px;
+}
+
+.about-page__visit-button .icon-monitor {
+    top: 13px;
+}
+
+.about-page .go-back {
+    margin-top: 29px;
+}
+
+.content-desktop .about-page .go-back {
+    height: 50px;
+}

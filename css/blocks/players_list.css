@@ -1,0 +1,55 @@
+.players-list {
+    font-family: 'Tahoma Bold';
+    width: 518px;
+    margin: 0 auto;
+    list-style: none;
+    padding-top: 33px;
+}
+
+.players-list-underline {
+    border-bottom: #ee4399 1px solid;
+    padding-bottom: 6px;
+}
+
+.players-list__item {
+    height: 91px;
+}
+
+.players-list__item__number {
+    float: left;
+    font-size: 40px;
+    color: #ee4399;
+    width: 59px;
+    height: 100%;
+    position: relative;
+}
+
+.players-list__item__number span {
+    position: absolute;
+    top: 7px;
+    left: -8px;
+}
+
+.players-list__item__avatar {
+    float: left;
+    width: 81px;
+}
+
+.players-list__item__title {
+    float: left;
+    font-size: 28px;
+    color: #fff;
+    width: 270px;
+    line-height: 58px;
+    letter-spacing: -0.6px;
+}
+
+.players-list__item__score {
+    float: right;
+    font-size: 22px;
+    color: #ee4399;
+    text-align: right;
+    line-height: 61px;
+    padding-right: 5px;
+    letter-spacing: 4px;
+}

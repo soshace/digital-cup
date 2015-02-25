@@ -1,0 +1,46 @@
+.messages-page {
+    font-family: 'Tahoma Bold';
+}
+
+.messages-page .dressing-room-content {
+    padding-top: 133px;
+}
+
+.messages-list {
+    width: 526px;
+    margin: 0 auto;
+}
+
+.messages-list__item {
+    height: 122px;
+}
+
+.messages-list__item__icon {
+    float: left;
+    width: 90px;
+}
+
+.messages-list__item figcaption {
+    float: left;
+    width: 430px;
+}
+
+.messages-list__item figcaption h3 {
+    color: #fff;
+    letter-spacing: -0.5px;
+}
+
+.messages-list__item figcaption span {
+    color: #ee4399;
+    font-size: 18px;
+    line-height: 41px;
+    letter-spacing: 3.6px;
+}
+
+.messages-page .go-back {
+    margin-top: 55px;
+}
+
+.content-mobile .messages-page .go-back {
+    margin-top: 0;
+}

@@ -1,0 +1,24 @@
+.player-details-page {
+}
+
+.player-details-page__content {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 55px;
+}
+
+.player-details-page .profile-mini-signs {
+    height: 118px;
+}
+
+.player-details-page .button-white {
+    margin-top: 24px;
+}
+
+.player-details-page .button {
+    padding-left: 21px;
+}
+
+.player-details-page .go-back {
+    margin-top: 40px;
+}

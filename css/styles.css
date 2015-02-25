@@ -1,0 +1,45 @@
+/*Fonts*/
+@import "../fonts/tahoma/fonts.css";
+@import "../fonts/tahoma_bold/fonts.css";
+
+/*Common*/
+@import "reset.css";
+@import "common.css";
+
+/*Elements*/
+@import "elements/buttons.css";
+@import "elements/icons.css";
+@import "elements/pink-form.css";
+
+/*Blocks*/
+@import "blocks/ribbon.css";
+@import "blocks/sidebar.css";
+@import "blocks/profile-mini.css";
+@import "blocks/header.css";
+@import "blocks/donations-level.css";
+@import "blocks/dressing-room-header.css";
+@import "blocks/footer.css";
+@import "blocks/players_list.css";
+
+/*Pages*/
+@import "pages/start_screen.css";
+@import "pages/login_page.css";
+@import "pages/create_team.css";
+@import "pages/create_profile.css";
+@import "pages/donation.css";
+@import "pages/invite.css";
+@import "pages/success.css";
+@import "pages/join_team.css";
+@import "pages/suggested_teams.css";
+@import "pages/search-results.css";
+@import "pages/about.css";
+@import "pages/profile.css";
+@import "pages/help.css";
+@import "pages/home.css";
+@import "pages/trophy.css";
+@import "pages/payments.css";
+@import "pages/management.css";
+@import "pages/overview.css";
+@import "pages/player_details.css";
+@import "pages/messages.css";
+@import "pages/scoreboard.css";

@@ -1,0 +1,34 @@
+.management-page {
+
+}
+
+.management-page .donations-level {
+    height: 204px;
+}
+
+.management-page .button {
+    padding-left: 20px;
+}
+
+.management-page__content {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 28px;
+}
+
+.management-page__content ul {
+    padding-top: 35px;
+    list-style: none;
+}
+
+.management-page__content li {
+    height: 90px;
+}
+
+.management-page .go-back {
+    margin-top: 56px;
+}
+
+.content-mobile .management-page .go-back {
+    margin-top: 25px;
+}

@@ -1,0 +1,60 @@
+.sidebar {
+    height: 888px;
+    margin-top: 9px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.sidebar__item {
+    border-bottom: 1px solid #000;
+}
+
+.sidebar__item a {
+    font-family: 'Tahoma Bold';
+    line-height: 90px;
+    font-size: 30px;
+    color: #fff;
+    display: block;
+    height: 90px;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    padding-left: 30px;
+    letter-spacing: 6px;
+}
+
+.sidebar__item a .icon {
+    position: absolute;
+    right: 38px;
+    top: 22px;
+}
+
+.sidebar__item a .icon-pink-team {
+    right: 33px;
+    top: 26px;
+}
+
+.sidebar__log-out {
+    color: #fff;
+}
+
+.sidebar__log-out {
+    font-family: 'Tahoma Bold';
+    font-size: 22px;
+    line-height: 48px;
+    color: #fff;
+    background-color: #ee4399;
+    height: 48px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 276px;
+    letter-spacing: 4px;
+}
+
+.content-mobile .sidebar {
+    height: 762px;
+}
+
+.content-mobile .sidebar__log-out {
+    margin-top: 150px;
+}

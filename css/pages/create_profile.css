@@ -1,0 +1,21 @@
+.create-profile-page {
+
+}
+
+.create-profile-page .pink-form {
+    padding-top: 20px;
+}
+
+.create-profile-page__upload-photo {
+    margin-top: 20px;
+}
+
+.create-profile-page__make-donation {
+    margin-top: 22px;
+    letter-spacing: 0.3px;
+}
+
+.create-profile-page__go-back {
+    margin-top: 30px;
+    letter-spacing: 0.1px;
+}

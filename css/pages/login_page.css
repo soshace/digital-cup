@@ -1,0 +1,19 @@
+.login-page {
+    height: 563px;
+}
+
+.login-page .pink-form .button-black {
+    margin-top: 20px;
+}
+
+.login-page .go-back {
+
+}
+
+.login-page .forgot-password {
+    padding-top: 37px;
+}
+
+.login-page .go-back {
+    padding-top: 35px;
+}

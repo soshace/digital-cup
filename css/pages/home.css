@@ -1,0 +1,156 @@
+.home-page {
+    height: 866px;
+}
+
+.play-levels {
+    width: 550px;
+    margin: 0 auto;
+    padding-top: 30px;
+    list-style: none;
+}
+
+.play-levels__batting {
+    height: 146px;
+}
+
+.play-levels__batting h3 {
+    margin-top: 17px;
+}
+
+.play-levels__batting .play-levels__continue {
+    padding-top: 10px;
+}
+
+.play-levels__bowling {
+    height: 106px;
+}
+
+.play-levels__bowling .icon-big-bowling {
+    margin-top: 6px;
+}
+
+.play-levels__bowling .play-levels__continue {
+    padding-top: 7px;
+}
+
+.play-levels__fielding {
+}
+
+.play-levels__fielding .play-levels__continue {
+    padding-top: 16px;
+}
+
+.play-levels__fielding h3 {
+    padding-top: 10px;
+}
+
+.play-levels__icon {
+    padding-left: 27px;
+    width: 102px;
+    float: left;
+}
+
+.play-levels__points {
+    float: left;
+    width: 329px;
+}
+
+.play-levels__points {
+
+}
+
+.play-levels__points h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Tahoma Bold";
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+.play-levels__points .icon-attention {
+    float: left;
+}
+
+.play-levels__points__rating {
+    margin-top: 12px;
+}
+
+.play-levels__points__rating ul {
+    margin-top: 6px;
+    width: 163px;
+    float: left;
+    list-style: none;
+}
+
+.play-levels__points__rating ul li {
+    width: 19px;
+    height: 19px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    background-color: #681d43;
+    margin-right: 7px;
+}
+
+.play-levels__points__rating ul li.active {
+    background-color: #ee4399;
+}
+
+.play-levels__points__rating ul li:last-child {
+    margin-right: 0;
+}
+
+.play-levels__continue {
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Tahoma Bold';
+    font-size: 15px;
+    text-align: center;
+    width: 85px;
+}
+
+.play-levels__continue em {
+    font-style: normal;
+    margin-top: 17px;
+    display: block;
+    letter-spacing: 0.5px;
+}
+
+.home-page__buttons {
+    padding-top: 71px;
+    width: 576px;
+    margin: 0 auto;
+}
+
+.home-page__buttons .button {
+    padding-left: 39px;
+}
+
+.home-page__buttons .button .icon {
+    right: 39px;
+}
+
+.home-page__buttons .button-white {
+    margin-top: 18px;
+}
+
+.home-page__buttons .icon-middle-message span {
+    position: absolute;
+    background-color: #ff0000;
+    border: #fff 2px solid;
+    color: #fff;
+    top: -15px;
+    right: -11px;
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    font-family: 'Tahoma Bold';
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    text-align: center;
+    line-height: 21px;
+    letter-spacing: 0;
+}

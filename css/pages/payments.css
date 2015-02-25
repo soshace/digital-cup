@@ -1,0 +1,95 @@
+.payments-page {
+    font-family: 'Tahoma Bold';
+}
+
+.payments-page__profile {
+    padding-top: 20px;
+    border-bottom: 1px solid #e34292;
+    border-top: 1px solid #e34292;
+    width: 520px;
+    margin: 41px auto 0 auto;
+    height: 90px;
+}
+
+.payments-page__profile__content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.payments-page__payments {
+    width: 520px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e34292;
+}
+
+.payments-page__payments ul {
+    width: 500px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.payments-page__payments__item {
+
+}
+
+.payments-page__payments__item__title {
+    float: left;
+}
+
+.payments-page__payments__item__title h2 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+.payments-page__payments__item__title h5 {
+    font-size: 18px;
+    color: #ee4399;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    padding-top: 7px;
+    line-height: 22px;
+}
+
+.payments-page__payments__item__go {
+    float: right;
+    padding-top: 17px;
+}
+
+.payments-page__payments__item-extra {
+    padding-top: 22px;
+    height: 101px;
+}
+
+.payments-page__payments__item-extra-all {
+    height: 111px;
+}
+
+.payments-page__payments__item-extra-all-double {
+    height: 117px;
+}
+
+.payments-page__footer {
+    padding-top: 108px;
+    width: 576px;
+    margin: 0 auto;
+}
+
+.content-mobile .payments-page__footer {
+    padding-top: 30px;
+}
+
+.payments-page__footer .button {
+    margin-top: 46px;
+    padding-left: 38px;
+    letter-spacing: 4px;
+}
+
+.content-mobile .payments-page__footer .button{
+    margin-top: 30px;
+}
+
+.payments-page__footer .button .icon-mail {
+    right: 37px;
+    top: 12px;
+}
